@@ -5,17 +5,17 @@ import os
 
 
 root = Tk()
-root.title("macro")
+root.title("classmacro")
 root.geometry("250x130")
 
 lable = Label(root, text="id")
 lable.grid(row=0, column=0)
-ident = Entry(root, width = 20)
+ident = Entry(root, width = 20, show='*')
 ident.grid(row=0, column=1)
 
 lable = Label(root, text="pwd")
 lable.grid(row=1, column=0)
-pwdent = Entry(root, width = 20)
+pwdent = Entry(root, width = 20, show='*')
 pwdent.grid(row=1, column=1)
 
 lable = Label(root, text="과목 1")
